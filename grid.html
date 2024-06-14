@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,10 +25,25 @@
             border:2px solid white;
             text-align: center;
             background-color: white;        
-            box-shadow: 0 1px 100px rgb(0, 0, 0,1)
+            box-shadow: 0 1px 100px rgb(76, 162, 248);
+            transition: all .1s ease;
         }
-        .img:hover{
+        .grid-item:hover{
+            transform: translateY(-10px);
+        }
 
+        .grid-item button{
+            padding: 1em 2em;
+            text-transform: capitalize;
+            background-color: rgb(1, 126, 243);
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .grid-item button:hover{
+            background-color: rgb(11, 98, 180);
         }
     </style>
 </head>

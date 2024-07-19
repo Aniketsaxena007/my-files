@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    body{
+        background-color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        text-align: center;
+        
+    }
+    
+    .grid-item{
+        background-color: white;
+        box-shadow: 0 1px 10px rgb(0, 0, 0, 0.1);
+        transition: all 0.4s ease;
+    }
+
+    nav{
+        height: 100%;
+        width:100%;
+        display:flex;
+        line-height: 75px;
+        background-image: linear-gradient(rgb(250, 255, 250),rgb(255, 255, 255));
+        align-items: center;
+        justify-content: space-between;
+        padding: fixed;
+    }
+
+    nav ul{
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        text-transform: capitalize;
+        margin-right: 40px;
+        margin-top: 9px;
+    }
+
+    .grid-item img{
+        position: relative;
+        
+        width: 200px;
+    }
+
+    .container img{
+        width:300px;
+    }
+
+    a{
+        color:rgb(0, 0, 0);
+        cursor: pointer;
+    }
+
+    input{
+        width: 500px;
+        padding: 10px;
+        border-radius:50px ;
+        border-color: black;
+        margin-right:150px;
+        margin-left:100px
+       
+     }
+
+     .grid-item button{
+        padding: 10px;
+        border-radius: 50px;
+        border: none;  
+        position: relative;
+        cursor: pointer;  
+        background-color: aqua;   
+        margin: auto;
+        
+     }
+     .logo img{
+        position: relative;
+        top: 15px;
+        left: 10px;
+        width: 200px;
+        margin-right: 30px;
+     }
+
+     .search button{
+        padding: 10px;
+        border-radius: 50px;
+        border: none;  
+        position: relative;
+        cursor: pointer;  
+        background-color: aqua;   
+        margin: auto;
+        right: 130px;
+        
+     }
+
+    
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="c:\Users\saxen\Downloads\dell.png">
+        </div>
+        <div class="search">
+            <form>
+            <input type="text" placeholder="search">
+            <button>GO </button>
+            </form>
+        </div>
+        <ul>
+            <li><a herf="">Home</a></li>
+            <li><a herf="">Services</a></li>
+            <li><a herf="">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="https://m.media-amazon.com/images/I/71Vum7DnVBL._AC_UF1000,1000_QL80_.jpg">
+            <p>Dell Inspiron 3530 13th Gen Laptop, Intel Core i5-1335U/8GB/512GB SSD/15.6"  
+               (39.62cms) 120Hz Refresh Rate on a FHD IPS Display Comfortview<br>
+               /Win 11+MSO' 21+McAfee 15 Month/Carbon Black/1.62kg</p>
+               <button>Buy now</button>
+            </div>
+        <div class="grid-item">
+            <img src="https://www.reliancedigital.in/medias/Dell-Ins-7430-2in1-493666432-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxNDgwMXxpbWFnZS9qcGVnfGltYWdlcy9oZTUvaGUzLzEwMDAyNDIwNDMyOTI2LmpwZ3xlNjA5M2JmMmU2YTQyMGY3N2Y1NTAxNTJkOGJkM2Y5ZDg1MDVkYWFiY2Y3ZDkyZTYyYjMwNmVmMzEyZWM4N2Fh">
+            <p>Dell Insprion 7430 Convertible Laptop (13th Gen Intel Core i7-1355U/16 GB/
+               512 GB SSD/Intel UMA Graphics/Windows 11/MSO/Full HD) 35.6 cm (14 inch)</p>
+               <button>Buy now</button>
+        </div>
+        <div class="grid-item">
+            <img src=https://images-cdn.ubuy.co.in/64e93adb92ba7158323d7765-dell-inspiron-14-touchscreen-2-in-1.jpg">
+            <p>Dell Inspiron 14" Touchscreen 2-in-1 Laptop, Intel Core i3-1115G4, 
+                8GB RAM, 256GB SSD, Windows 10 Home in S mode, Platinum Silver, 
+                5406</p>
+                <button>Buy now</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://m.media-amazon.com/images/I/61ADfI+ueNL._SX679_.jpg">
+            <p>Dell Inspiron 3525 Laptop, AMD Ryzen R3-5425U/8GB/512GB/15.6" 
+                (39.62cm) FHD, 3 Sided Narrow Border Design with 120Hz FHD
+                Display/Windows 11 + MSO'21/McAfee 15 Months/Carbon Black/
+                Thin & Light-1.68kg</p>
+                <button>Buy now</button>
+        </div>
+    </div>
+</body>
+</html>

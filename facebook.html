@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,170 +6,131 @@
     <title>Document</title>
     <style>
         body{
-            background-color: rgb(242, 244, 245);
-            height: 100vh;
+            background-color: rgb(243, 243, 243);
+            height:100vh;
             display: flex;
             justify-content: center;
             align-items: center;
+            
         }
         .container{
-           width: 300px;
-           height:350px;
+           width: 320px;
+           height: 500px;
            padding: 16px 32px;
-           background-color: rgb(250, 250, 250);
-           border: 2px solid black;;
+           background-color: white;
+           box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.1);
            border-radius: 10px;
+           
+
         }
+
+
+        h1{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            color: rgb(10, 102, 249);
+            font-size: 50px;
+        }
+
+
         input{
             width: 100%;
-            height: 30px;
+            height: 50px;
             margin-top: 10px;
             margin-bottom: 10px;
+            border: 1px solid rgb(179, 203, 213);
+            border-radius: 10px;
+            
+
         }
-        button{
+        .log button{
             width: 100%;
+            height: 50px;
             padding: 10px 20px ;
-            background-color: rgb(0, 153, 255);
+            background-color: rgb(0, 89, 255);
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
             outline: none;
             border: none;
+            border-radius: 10px;
+            margin-left: 5px;
+            margin-top: 10px;
+            transition: all 0.4s ease;
+            
+        }
+
+        .log button:hover{
+            background-color: rgb(6, 150, 246);
+            cursor: pointer;
         }
         
-        h1{
-            text-align: center;
+       
+
+        a{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+            color: rgb(10, 91, 220) ;
+            position:relative;
+            left: 90px;
+            top: 10px;
+        
         }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        hr{
+            position: relative;
+            top: 25px;
+        }
+
+        .account button{
+            width: 70%;
+            height: 50px;
+            padding: 10px 20px ;
+            background-color: rgb(45, 167, 5);
+            color: white;
+            font-size: 20px;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            transition: all 0.4s ease;
+
+
+        }
+
+
+        .account button:hover{
+            background-color: rgb(44, 150, 8);
+            cursor: pointer;
+
+        }
+        
     </style>
 </head>
 <body>
-    <header>
-        
-    </header>
+   
         <div class="container">
-            <h1></h1>
+            <h1>facebook</h1>
             <div class="input-group">
-                <label for="">Email or Phone number</label>
                 <input type="text" placeholder="Email or Phone number">
             </div>
             <div class="input-group">
-                <label for="">Password</label>
                 <input type="text" placeholder="password">
             </div>
-            <button>Login </button>
-        </div>
-</body>
-</html>!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-color: rgb(242, 244, 245);
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .container{
-           width: 300px;
-           height:350px;
-           padding: 16px 32px;
-           background-color: rgb(250, 250, 250);
-           border: 2px solid black;;
-           border-radius: 10px;
-        }
-        input{
-            width: 100%;
-            height: 30px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        button{
-            width: 100%;
-            padding: 10px 20px ;
-            background-color: rgb(0, 153, 255);
-            outline: none;
-            border: none;
-        }
-        
-        h1{
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        
-    </header>
-        <div class="container">
-            <h1></h1>
-            <div class="input-group">
-                <label for="">Email or Phone number</label>
-                <input type="text" placeholder="Email or Phone number">
+            <div class="log">
+            <button>Log in </button>
             </div>
-            <div class="input-group">
-                <label for="">Password</label>
-                <input type="text" placeholder="password">
+            <a href="">Forgotten password?</a>
+            <hr>
+            <div class="account">
+            <button>Create new account</button>
             </div>
-            <button>Login </button>
-        </div>
-</body>
-</html>!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-color: rgb(242, 244, 245);
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .container{
-           width: 300px;
-           height:350px;
-           padding: 16px 32px;
-           background-color: rgb(250, 250, 250);
-           border: 2px solid black;;
-           border-radius: 10px;
-        }
-        input{
-            width: 100%;
-            height: 30px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        button{
-            width: 100%;
-            padding: 10px 20px ;
-            background-color: rgb(0, 153, 255);
-            outline: none;
-            border: none;
-        }
-        
-        h1{
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        
-    </header>
-        <div class="container">
-            <h1></h1>
-            <div class="input-group">
-                <label for="">Email or Phone number</label>
-                <input type="text" placeholder="Email or Phone number">
-            </div>
-            <div class="input-group">
-                <label for="">Password</label>
-                <input type="text" placeholder="password">
-            </div>
-            <button>Login </button>
         </div>
 </body>
 </html>
